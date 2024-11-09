@@ -18,8 +18,8 @@ Enterprise infrastructure lab showing hybrid identity management and modern work
   - Azure free account
 
 ## Network Configuration 
-  - Internet NIC: //172.16.0.1/30
-  - Internal NIC: //192.168.0.0/24
+  - Internet NIC: 
+  - Internal NIC:
   - DC
   - Client
 
