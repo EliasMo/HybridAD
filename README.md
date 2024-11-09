@@ -15,7 +15,7 @@ Enterprise infrastructure lab showing hybrid identity management and modern work
   - VMware Workstation
   - Windows Server 2022 ISO
   - Windows 11 ISO
-  - Azure free account
+  - Azure account
 
 ## Network Configuration 
   - Internet NIC: 
@@ -24,6 +24,8 @@ Enterprise infrastructure lab showing hybrid identity management and modern work
   - Client
 
 ## Project Architecture
+![image](https://github.com/user-attachments/assets/63b5f171-2252-4326-a36e-58c51b37e0d2)
+
 
 ## Network Component Overview 
 
