@@ -1,7 +1,7 @@
-# HybridAD  
+# Hybrid AD  
 
 ## Project Description
-Enterprise infrastructure lab showing hybrid identity management and modern workplace services. This project combines Active Directory with Azure AD, including automation and management of infrastructure services. 
+Enterprise infrastructure lab showing hybrid identity management and modern workplace services. This project combines Active Directory with Azure AD, including automation and management of infrastructure services. This is a better version of Active Directory Bulk user creation page i made a while ago.
 
 ## Key Features 
   - Active Directory and Azure AD
@@ -11,14 +11,14 @@ Enterprise infrastructure lab showing hybrid identity management and modern work
   - SQL Server
 
 ## Prerequisites
-  - VMware Workstation
+  - VirtualBox
   - Windows Server 2022 ISO
   - Windows 11 ISO
   - Azure account
 
 ## Network Configuration 
-  - Internet NIC: 192.168.1.0/24
-  - Internal NIC: 172.16.0.0/24
+  - Internet NIC: //
+  - Internal NIC: 172.16.0.1/24
   - DC: 172.16.0.2
 
 ## Project Architecture
@@ -46,7 +46,63 @@ Enterprise infrastructure lab showing hybrid identity management and modern work
       ![image](https://github.com/user-attachments/assets/8cc399eb-2ea8-42e1-afaf-3848a6bf358b)
 
   - Configure NAT configuration for DC
-    ![image](https://github.com/user-attachments/assets/6d77e160-9577-47ee-b0b7-72dff4639131)
+      ![image](https://github.com/user-attachments/assets/a511e19d-86da-4239-9e72-079cc684100d)
+    
+      ![image](https://github.com/user-attachments/assets/303bda4f-31d9-4242-b222-646ed7440e3a)
+    
+    
+
+  - Configure Internal NAT
+
+     ![image](https://github.com/user-attachments/assets/a5089067-b298-47ec-a5bd-a0cba5ca0d93)
+
+      ![image](https://github.com/user-attachments/assets/13934cd4-a77d-4ea1-8cf1-c529e273aec0)
+
+
+## Install AD Domain Services 
+
+- Active Directory Domain Services
+
+    ![image](https://github.com/user-attachments/assets/19748b36-4789-42b5-8c23-4c365266cbd7)
+
+  - root domain = corp.local
+
+     ![image](https://github.com/user-attachments/assets/db403b53-49b1-45e2-9173-f666fa17a461)
+
+
+## Install RAS and NAT
+
+- RAS
+
+  ![image](https://github.com/user-attachments/assets/6a07a01e-19de-4580-9152-02dfc84b536f)
+
+- Install Routing
+
+  ![image](https://github.com/user-attachments/assets/ee7e00cd-3452-409a-b577-9f95f930159d)
+
+
+- Enable NAT
+
+   ![image](https://github.com/user-attachments/assets/766b3628-e165-4936-bcbd-015c2e107146)
+  
+## Install DHCP Server 
+
+
+- DHCP Server
+
+  ![image](https://github.com/user-attachments/assets/a508ffa9-d224-4a27-b1d0-04295a54465f)
+
+- DHCP Range
+  ![image](https://github.com/user-attachments/assets/18de98b6-6761-4613-9865-8874974f96ff)
+
+  
+
+
+
+
+  
+
+    
 
 
 
