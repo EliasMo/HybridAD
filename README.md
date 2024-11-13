@@ -5,10 +5,7 @@ Enterprise infrastructure lab showing hybrid identity management and modern work
 
 ## Key Features 
   - Active Directory and Azure AD
-  - Powershell
   - Enterprise Services (DHCP, DNS, NAT)
-  - HelpDesk infrastructure (osTicket)
-  - SQL Server
 
 ## Prerequisites
   - VirtualBox
@@ -18,8 +15,8 @@ Enterprise infrastructure lab showing hybrid identity management and modern work
 
 ## Network Configuration 
   - Internet NIC: //
-  - Internal NIC: 172.16.0.1/24
-  - DC: 172.16.0.2
+  - Internal NIC: 172.16.0.0/24
+  - DC: 172.16.0.1
 
 ## Project Architecture
 ![image](https://github.com/user-attachments/assets/44e02c1b-f906-4fa6-88d3-4844c920bd08)
@@ -96,6 +93,12 @@ Enterprise infrastructure lab showing hybrid identity management and modern work
   ![image](https://github.com/user-attachments/assets/18de98b6-6761-4613-9865-8874974f96ff)
 
   
+## Create Clients Workstations 
+
+- OU and User Creation
+
+  ![image](https://github.com/user-attachments/assets/3ca4d8b7-a6e9-43fb-955e-2a7ad3660b30)
+
 
 
 
