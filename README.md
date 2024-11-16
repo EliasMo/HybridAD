@@ -1,7 +1,7 @@
 # Hybrid AD  
 
 ## Project Description
-Enterprise infrastructure lab showing hybrid identity management and modern workplace services. This project combines Active Directory with Azure AD, including automation and management of infrastructure services. This is a better version of Active Directory Bulk user creation page i made a while ago.
+Enterprise infrastructure lab showing hybrid identity management and modern workplace services. This project combines Active Directory with Azure AD, including automation and management of infrastructure services. This is a updated version of Active Directory Bulk user creation page I made a while ago.
 
 ## Key Features 
   - Active Directory and Azure AD
@@ -15,7 +15,7 @@ Enterprise infrastructure lab showing hybrid identity management and modern work
 
 ## Network Configuration 
   - Internet NIC: //
-  - Internal NIC: 172.16.0.0/24
+  - Internal NIC: 172.16.0.1/24
   - DC: 172.16.0.1
 
 ## Project Architecture
@@ -62,9 +62,11 @@ Enterprise infrastructure lab showing hybrid identity management and modern work
 
     ![image](https://github.com/user-attachments/assets/19748b36-4789-42b5-8c23-4c365266cbd7)
 
-  - root domain = corp.local
+  - root domain = internalcompany.com
 
-     ![image](https://github.com/user-attachments/assets/db403b53-49b1-45e2-9173-f666fa17a461)
+     ![image](https://github.com/user-attachments/assets/1aff9801-c05b-4e4f-9408-4a99c778d732)
+
+
 
 
 ## Install RAS and NAT
@@ -101,11 +103,19 @@ Enterprise infrastructure lab showing hybrid identity management and modern work
 
 
 
+## Create Client Windows Workstations and Connectng them via Domain
 
+  - Entering in the domain
 
-  
+    ![image](https://github.com/user-attachments/assets/74e5ee78-08e2-4e45-bda8-1e9cf9b41aa8)
+
 
     
+## AD Structure 
+
+ - Created a basic AD enterprise structure : Admin, Groups, Resources for employees, Employees and Departments sections. 
+
+  ![image](https://github.com/user-attachments/assets/8adb6e37-69a4-4a3d-9e60-885199cc4fd5)
 
 
 
