@@ -200,13 +200,6 @@ A comprehensive enterprise infrastructure lab demonstrating Windows Server manag
   * Account lockout mechanisms
   * User access controls
   
-### Project Outcomes
-- Functioning enterprise-level Active Directory environment
-- Automated user management capabilities
-- Secure and organized infrastructure
-- Documented deployment process
-- Tested and verified security policies
-
 ### Future Developments
 - Azure AD integration
 - Hybrid identity management implementation
@@ -216,7 +209,7 @@ A comprehensive enterprise infrastructure lab demonstrating Windows Server manag
 
 
 
-This project shows enterprise on preme management - the hybrid section will be out in part 2 
+This project shows enterprise on prem management - the hybrid section will be out in part 2 
 
 
 
